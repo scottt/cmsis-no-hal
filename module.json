@@ -1,0 +1,49 @@
+{
+  "name": "cmsis-no-hal",
+  "version": "0.0.0",
+  "description": "CMSIS-CORE _WITHOUT_ any peripheral library or HAL",
+  "keywords": [
+    "HAL",
+    "no-HAL",
+    "cmsis"
+  ],
+  "author": "Scott Tsai <scottt.tw@gmail.com>",
+  "repository": {
+    "url": "git@github.com:scottt/cmsis-no-hal.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/scottt/cmsis-no-hal",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "bsd-3-clause"
+    }
+  ],
+  "dependencies": {
+    "cmsis-core": ">=0.3.0",
+    "compiler-polyfill": "^1.1.0"
+  },
+  "targetDependencies": {
+    "silabs": {
+      "cmsis-no-hal-silabs": ">=0.1.0"
+    },
+    "freescale": {
+      "cmsis-no-hal-freescale": ">=0.1.0"
+    },
+    "st": {
+      "cmsis-no-hal-st": ">=0.1.0"
+    },
+    "nordic": {
+      "cmsis-no-hal-nordic": ">=0.1.0"
+    },
+    "nxp": {
+      "cmsis-no-hal-nxp": ">=0.1.0"
+    },
+    "ti": {
+      "cmsis-no-hal-ti": ">=0.1.0"
+    },
+    "atmel": {
+      "cmsis-no-hal-atmel": ">=0.1.0"
+    }
+  }
+}
